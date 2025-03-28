@@ -1,0 +1,8 @@
+services:
+  mushroomid:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    container_name: mushroomid_api
