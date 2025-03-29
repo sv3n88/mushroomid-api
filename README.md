@@ -18,4 +18,4 @@ Build and run:
 ```bash
 docker-compose up -d
 curl -X POST -F "image=@D:/Images/mushroom.jpg" http://localhost:8000/identify
-bash
+```
